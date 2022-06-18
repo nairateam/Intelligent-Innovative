@@ -326,6 +326,9 @@ h1, h2, h3, h4, h5 {
 }
 #contact .info {
   display: flex;
+}
+
+#contact .info .fa {
   margin-right: 1rem;
 }
 
