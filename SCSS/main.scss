@@ -30,7 +30,7 @@ $font-size: (
     'h2': 2rem
 );
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4 {
     color: map-get($heads, $key: color);
     text-transform: capitalize;
     // border-bottom: 1px solid $secondary;
@@ -83,6 +83,18 @@ h1, h2, h3, h4, h5 {
     .navbar-expand-lg {
         display: flex;
     }
+
+    .navbar-toggler {
+        border: 0;
+    }
+
+        .fa {
+            color: $primary;
+        }
+
+        .nav-link {
+            color: #fff;
+        }
 }
 
 #hero {
@@ -140,6 +152,10 @@ h1, h2, h3, h4, h5 {
         @media (max-width: 865px) {
             .top-nav {
                 display: none;
+            }
+
+            .heading {
+                width: 100%;
             }
         }
         
@@ -232,6 +248,8 @@ h1, h2, h3, h4, h5 {
 #services {
     @include container;
     background: $background;
+    background-image: url(IMAGES/lightbulb\ 1.svg);
+    background-repeat: no-repeat;
     text-align: center;
 
         .service {
@@ -245,7 +263,7 @@ h1, h2, h3, h4, h5 {
                 margin: 2rem;
                 text-align: left;
                 background: #fff;
-                box-shadow: 0 0 2px 4px #ff741e13;
+                box-shadow: 0 0 2px 4px #968f8b13;
             }
                 h5 {
                     color: $text !important;
@@ -317,7 +335,7 @@ h1, h2, h3, h4, h5 {
     }
 
         .title {
-            width: 50%;
+            width: 100%;
         }
 
     .flex-box {
@@ -404,8 +422,101 @@ h1, h2, h3, h4, h5 {
 
 #testimonials {
     @include container;
-    background: $background
+    background: rgba(59, 134, 225, 0.03);;
+    background-image: url(IMAGES/lightbulb\ 2.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+
+    
 }
+
+.review-title{
+    text-align: center;
+    padding: 20px 0px;
+    border-bottom: 2px solid #dddddd;
+}
+.single-review{
+    background:#fff;
+    margin: 100px 1rem;
+    padding: 3rem;
+    text-align: center;
+    border-radius:10px;
+    position: relative;
+    box-shadow: 0 0 5px -2px rgba(49, 48, 48, 0.164);
+}
+.img-thumbnail{
+    width:100px;
+    position: absolute;
+    top:-54px;
+    left:50%;
+    margin-left:-50px;
+}
+.img-thumbnail img{
+    border:8px solid #fff;
+    border-radius: 50%;
+}
+.review-content{
+    margin-top:40px;
+}
+.review-content h2{
+    font-size: 20px;
+    color: $primary;
+    text-transform: uppercase;
+    margin-bottom:10px;
+}
+.review-content h5{
+    font-size: 16px;
+    color:$text;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.review-content p{
+    font-size: 16px;
+    color:$text;
+    line-height: 26px;
+}
+
+/*Control CSS*/
+button:focus{
+    outline: none;
+}
+.owl-nav{
+    position: absolute;
+    top:-55px;
+    right:0px;
+}
+.owl-nav button{
+    background:#757575 !important;
+    margin:0px 0px 0px 5px;
+    color:#fff !important;
+    width:30px;
+    height:40px;
+    transition: .4s;
+}
+.owl-nav button:hover{
+    background: $primary !important;
+}
+
+.owl-dots .owl-dot{
+    background:#dddddd !important;
+    width:26px;
+    height: 26px;
+    position: relative;
+    bottom:40px;
+    left:50%;
+    margin-right: 15px;
+    border-radius: 50%;
+    transition: .4s;
+}
+.owl-dots{
+    margin-left: 18px;
+}
+button.owl-dot:hover, button.owl-dot.active{
+    background:$primary !important;
+}
+
+
+
 
 // Contact
 
