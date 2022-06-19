@@ -399,6 +399,7 @@ button:focus {
 }
 
 .owl-nav button {
+  display: none;
   background: rgba(238, 237, 237, 0.0666666667) !important;
   margin: 0px 0px 0px 5px;
   color: #fff !important;
