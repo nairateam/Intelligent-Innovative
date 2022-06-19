@@ -167,7 +167,7 @@ h1, h2, h3, h4 {
 #services {
   padding: 4% 8%;
   background: rgba(246, 246, 255, 0.74);
-  background-image: url(../IMAGES/lightbulb\ 1.svg);
+  background-image: url("../IMAGES/lightbulb 1.svg");
   background-repeat: no-repeat;
   text-align: center;
 }
@@ -329,7 +329,7 @@ h1, h2, h3, h4 {
 #testimonials {
   padding: 4% 8%;
   background: rgba(59, 134, 225, 0.03);
-  background-image: url(../IMAGES/lightbulb\ 2.svg);
+  background-image: url("../IMAGES/lightbulb 2.svg");
   background-repeat: no-repeat;
   background-position: right;
 }
@@ -399,7 +399,7 @@ button:focus {
 }
 
 .owl-nav button {
-  background: #757575 !important;
+  background: rgba(238, 237, 237, 0.0666666667) !important;
   margin: 0px 0px 0px 5px;
   color: #fff !important;
   width: 30px;
