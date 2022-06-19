@@ -248,7 +248,7 @@ h1, h2, h3, h4 {
 #services {
     @include container;
     background: $background;
-    background-image: url(IMAGES/lightbulb\ 1.svg);
+    background-image: url(../IMAGES/lightbulb\ 1.svg);
     background-repeat: no-repeat;
     text-align: center;
 
@@ -423,7 +423,7 @@ h1, h2, h3, h4 {
 #testimonials {
     @include container;
     background: rgba(59, 134, 225, 0.03);;
-    background-image: url(IMAGES/lightbulb\ 2.svg);
+    background-image: url(../IMAGES/lightbulb\ 2.svg);
     background-repeat: no-repeat;
     background-position: right;
 
